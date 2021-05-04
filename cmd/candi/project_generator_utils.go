@@ -11,7 +11,7 @@ import (
 	"strings"
 	"text/template"
 
-	"pkg.agungdp.dev/candi"
+	"github.com/golangid/candi"
 )
 
 func parseInput(flagParam *flagParameter) (srvConfig serviceConfig) {
