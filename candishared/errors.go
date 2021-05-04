@@ -4,8 +4,8 @@ import (
 	"context"
 	"time"
 
-	"pkg.agungdp.dev/candi/codebase/factory/types"
-	"pkg.agungdp.dev/candi/logger"
+	"github.com/golangid/candi/codebase/factory/types"
+	"github.com/golangid/candi/logger"
 )
 
 // GraphQLErrorResolver graphql error with extensions

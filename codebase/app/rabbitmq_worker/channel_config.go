@@ -3,8 +3,8 @@ package rabbitmqworker
 import (
 	"fmt"
 
+	"github.com/golangid/candi/config/env"
 	"github.com/streadway/amqp"
-	"pkg.agungdp.dev/candi/config/env"
 )
 
 func getConfiguration(conn *amqp.Connection) (*amqp.Channel, func(channel *amqp.Channel, queueName string) (<-chan amqp.Delivery, error)) {
