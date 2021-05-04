@@ -1,7 +1,7 @@
 package taskqueueworker
 
 import (
-	"pkg.agungdp.dev/candi/config/env"
+	"github.com/golangid/candi/config/env"
 )
 
 func registerNewTaskListSubscriber(clientID string, clientChannel chan []TaskResolver) error {

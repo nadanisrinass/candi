@@ -3,8 +3,8 @@ package taskqueueworker
 import (
 	"encoding/json"
 
+	"github.com/golangid/candi/candishared"
 	"github.com/gomodule/redigo/redis"
-	"pkg.agungdp.dev/candi/candishared"
 )
 
 // QueueStorage abstraction for queue storage backend
