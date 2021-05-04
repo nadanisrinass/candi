@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"time"
 
+	"github.com/golangid/candi/candihelper"
+	"github.com/golangid/candi/config/env"
+	"github.com/golangid/candi/logger"
 	"github.com/lib/pq"
-	"pkg.agungdp.dev/candi/candihelper"
-	"pkg.agungdp.dev/candi/config/env"
-	"pkg.agungdp.dev/candi/logger"
 )
 
 func getListener() (*sql.DB, *pq.Listener) {

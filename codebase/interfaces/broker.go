@@ -2,8 +2,8 @@ package interfaces
 
 import (
 	"github.com/Shopify/sarama"
+	"github.com/golangid/candi/codebase/factory/types"
 	"github.com/streadway/amqp"
-	"pkg.agungdp.dev/candi/codebase/factory/types"
 )
 
 // Broker abstraction
