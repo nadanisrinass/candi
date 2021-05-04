@@ -1,6 +1,6 @@
 package validator
 
-import "pkg.agungdp.dev/candi/config/env"
+import "github.com/golangid/candi/config/env"
 
 // Validator instance
 type Validator struct {

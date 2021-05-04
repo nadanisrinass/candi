@@ -1,7 +1,7 @@
 package dependency
 
 import (
-	"pkg.agungdp.dev/candi/codebase/interfaces"
+	"github.com/golangid/candi/codebase/interfaces"
 )
 
 // Dependency base
