@@ -6,10 +6,10 @@ import (
 	"net/http/httptest"
 	"testing"
 
+	"github.com/golangid/candi/candishared"
+	"github.com/golangid/candi/config/env"
 	"github.com/stretchr/testify/assert"
 	"google.golang.org/grpc/metadata"
-	"pkg.agungdp.dev/candi/candishared"
-	"pkg.agungdp.dev/candi/config/env"
 )
 
 const (
