@@ -7,9 +7,9 @@ import (
 	"sync"
 	"time"
 
-	"pkg.agungdp.dev/candi/codebase/factory"
-	"pkg.agungdp.dev/candi/codebase/factory/types"
-	"pkg.agungdp.dev/candi/config/env"
+	"github.com/golangid/candi/codebase/factory"
+	"github.com/golangid/candi/codebase/factory/types"
+	"github.com/golangid/candi/config/env"
 )
 
 type (
