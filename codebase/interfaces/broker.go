@@ -1,7 +1,7 @@
 package interfaces
 
 import (
-	"pkg.agungdp.dev/candi/codebase/factory/types"
+	"github.com/golangid/candi/codebase/factory/types"
 )
 
 // Broker abstraction
