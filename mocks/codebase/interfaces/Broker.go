@@ -5,8 +5,8 @@ package mocks
 import (
 	context "context"
 
+	interfaces "github.com/golangid/candi/codebase/interfaces"
 	mock "github.com/stretchr/testify/mock"
-	interfaces "pkg.agungdp.dev/candi/codebase/interfaces"
 
 	types "github.com/golangid/candi/codebase/factory/types"
 )
