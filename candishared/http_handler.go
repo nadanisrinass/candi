@@ -7,7 +7,7 @@ import (
 	"runtime"
 	"time"
 
-	"pkg.agungdp.dev/candi/config/env"
+	"github.com/golangid/candi/config/env"
 )
 
 // HTTPRoot http handler
