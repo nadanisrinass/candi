@@ -4,10 +4,10 @@ import (
 	"context"
 	"errors"
 
-	"pkg.agungdp.dev/candi/candihelper"
-	"pkg.agungdp.dev/candi/codebase/factory/types"
-	"pkg.agungdp.dev/candi/codebase/interfaces"
-	"pkg.agungdp.dev/candi/logger"
+	"github.com/golangid/candi/candihelper"
+	"github.com/golangid/candi/codebase/factory/types"
+	"github.com/golangid/candi/codebase/interfaces"
+	"github.com/golangid/candi/logger"
 )
 
 // OptionFunc type
