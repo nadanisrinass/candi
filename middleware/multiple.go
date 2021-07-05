@@ -5,9 +5,9 @@ import (
 	"net/http"
 	"strings"
 
+	"github.com/golangid/candi/candishared"
+	"github.com/golangid/candi/wrapper"
 	"github.com/labstack/echo"
-	"pkg.agungdp.dev/candi/candishared"
-	"pkg.agungdp.dev/candi/wrapper"
 )
 
 // HTTPMultipleAuth mix basic & bearer auth

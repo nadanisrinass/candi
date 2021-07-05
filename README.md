@@ -19,26 +19,26 @@
 ## Install `CLI`
 For linux:
 ```
-$ wget -O candi https://storage.googleapis.com/agungdp/bin/candi/candi-linux && chmod +x candi && sudo mv candi /usr/local/bin
+$ wget -O candi https://storage.googleapis.com/agungdp/bin/candi-golangid/candi-linux && chmod +x candi && sudo mv candi /usr/local/bin
 $ candi
 ```
 
 For macOS:
 ```
-$ wget -O candi https://storage.googleapis.com/agungdp/bin/candi/candi-osx && chmod +x candi && mv candi /usr/local/bin
+$ wget -O candi https://storage.googleapis.com/agungdp/bin/candi-golangid/candi-osx && chmod +x candi && mv candi /usr/local/bin
 $ candi
 ```
 
 For windows:
 ```
-https://storage.googleapis.com/agungdp/bin/candi/candi-x64.exe (64 bit)
+https://storage.googleapis.com/agungdp/bin/candi-golangid/candi-x64.exe (64 bit)
 or 
-https://storage.googleapis.com/agungdp/bin/candi/candi-x86.exe (32 bit)
+https://storage.googleapis.com/agungdp/bin/candi-golangid/candi-x86.exe (32 bit)
 ```
 
 Or build binary from source:
 ```
-$ go get -u pkg.agungdp.dev/candi/cmd/candi
+$ go get -u github.com/golangid/candi/cmd/candi
 $ candi
 ```
 
@@ -55,7 +55,7 @@ Usage of candi:
   -init-monorepo
         [project generator] init monorepo codebase
   -libraryname string
-        [project generator] define library name (default "pkg.agungdp.dev/candi")
+        [project generator] define library name (default "github.com/golangid/candi")
   -monorepo-name string
         [project generator] set monorepo project name (default "monorepo")
   -output string
