@@ -9,13 +9,13 @@ import (
 	"net/http"
 	"net/http/httputil"
 
+	"github.com/golangid/candi/config/env"
+	"github.com/golangid/candi/logger"
+	"github.com/golangid/candi/tracer"
+	"github.com/golangid/candi/wrapper"
 	"github.com/labstack/echo"
 	"github.com/opentracing/opentracing-go"
 	"github.com/opentracing/opentracing-go/ext"
-	"pkg.agungdp.dev/candi/config/env"
-	"pkg.agungdp.dev/candi/logger"
-	"pkg.agungdp.dev/candi/tracer"
-	"pkg.agungdp.dev/candi/wrapper"
 )
 
 // echoRestTracerMiddleware for wrap from http inbound (request from client)
