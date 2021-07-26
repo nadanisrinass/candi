@@ -1,8 +1,8 @@
 package taskqueueworker
 
 import (
-	"pkg.agungdp.dev/candi/candihelper"
-	"pkg.agungdp.dev/candi/logger"
+	"github.com/golangid/candi/candihelper"
+	"github.com/golangid/candi/logger"
 )
 
 func registerNewTaskListSubscriber(clientID string, clientChannel chan TaskListResolver) error {
