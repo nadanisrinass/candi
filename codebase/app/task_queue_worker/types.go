@@ -7,9 +7,9 @@ import (
 	"sync"
 	"time"
 
+	"github.com/golangid/candi/codebase/factory/types"
+	"github.com/golangid/candi/config/env"
 	"go.mongodb.org/mongo-driver/mongo"
-	"pkg.agungdp.dev/candi/codebase/factory/types"
-	"pkg.agungdp.dev/candi/config/env"
 )
 
 type (

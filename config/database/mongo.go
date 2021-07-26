@@ -6,14 +6,13 @@ import (
 	"sync"
 	"time"
 
+	"github.com/golangid/candi/codebase/interfaces"
+	"github.com/golangid/candi/config/env"
+	"github.com/golangid/candi/logger"
 	"go.mongodb.org/mongo-driver/mongo"
 	"go.mongodb.org/mongo-driver/mongo/options"
 	"go.mongodb.org/mongo-driver/mongo/readpref"
 	"go.mongodb.org/mongo-driver/x/mongo/driver/connstring"
-
-	"pkg.agungdp.dev/candi/codebase/interfaces"
-	"pkg.agungdp.dev/candi/config/env"
-	"pkg.agungdp.dev/candi/logger"
 )
 
 type mongoInstance struct {
