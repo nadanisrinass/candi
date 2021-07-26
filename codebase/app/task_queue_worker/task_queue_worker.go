@@ -8,13 +8,13 @@ import (
 	"sync"
 	"time"
 
+	"github.com/golangid/candi/candishared"
+	"github.com/golangid/candi/codebase/factory"
+	"github.com/golangid/candi/codebase/factory/types"
+	"github.com/golangid/candi/config/env"
+	"github.com/golangid/candi/logger"
+	"github.com/golangid/candi/tracer"
 	"go.mongodb.org/mongo-driver/mongo"
-	"pkg.agungdp.dev/candi/candishared"
-	"pkg.agungdp.dev/candi/codebase/factory"
-	"pkg.agungdp.dev/candi/codebase/factory/types"
-	"pkg.agungdp.dev/candi/config/env"
-	"pkg.agungdp.dev/candi/logger"
-	"pkg.agungdp.dev/candi/tracer"
 )
 
 type taskQueueWorker struct {

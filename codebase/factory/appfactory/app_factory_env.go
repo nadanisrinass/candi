@@ -1,17 +1,17 @@
 package appfactory
 
 import (
-	cronworker "pkg.agungdp.dev/candi/codebase/app/cron_worker"
-	graphqlserver "pkg.agungdp.dev/candi/codebase/app/graphql_server"
-	grpcserver "pkg.agungdp.dev/candi/codebase/app/grpc_server"
-	kafkaworker "pkg.agungdp.dev/candi/codebase/app/kafka_worker"
-	postgresworker "pkg.agungdp.dev/candi/codebase/app/postgres_worker"
-	rabbitmqworker "pkg.agungdp.dev/candi/codebase/app/rabbitmq_worker"
-	redisworker "pkg.agungdp.dev/candi/codebase/app/redis_worker"
-	restserver "pkg.agungdp.dev/candi/codebase/app/rest_server"
-	taskqueueworker "pkg.agungdp.dev/candi/codebase/app/task_queue_worker"
-	"pkg.agungdp.dev/candi/codebase/factory"
-	"pkg.agungdp.dev/candi/config/env"
+	cronworker "github.com/golangid/candi/codebase/app/cron_worker"
+	graphqlserver "github.com/golangid/candi/codebase/app/graphql_server"
+	grpcserver "github.com/golangid/candi/codebase/app/grpc_server"
+	kafkaworker "github.com/golangid/candi/codebase/app/kafka_worker"
+	postgresworker "github.com/golangid/candi/codebase/app/postgres_worker"
+	rabbitmqworker "github.com/golangid/candi/codebase/app/rabbitmq_worker"
+	redisworker "github.com/golangid/candi/codebase/app/redis_worker"
+	restserver "github.com/golangid/candi/codebase/app/rest_server"
+	taskqueueworker "github.com/golangid/candi/codebase/app/task_queue_worker"
+	"github.com/golangid/candi/codebase/factory"
+	"github.com/golangid/candi/config/env"
 )
 
 /*
