@@ -10,14 +10,13 @@ import (
 	"time"
 
 	"github.com/agungdwiprasetyo/task-queue-worker-dashboard/external"
+	"github.com/golangid/candi"
+	"github.com/golangid/candi/candishared"
+	"github.com/golangid/candi/codebase/app/graphql_server/static"
+	"github.com/golangid/candi/codebase/app/graphql_server/ws"
+	"github.com/golangid/candi/config/env"
 	"github.com/golangid/graphql-go"
 	"github.com/golangid/graphql-go/relay"
-
-	"pkg.agungdp.dev/candi"
-	"pkg.agungdp.dev/candi/candishared"
-	"pkg.agungdp.dev/candi/codebase/app/graphql_server/static"
-	"pkg.agungdp.dev/candi/codebase/app/graphql_server/ws"
-	"pkg.agungdp.dev/candi/config/env"
 )
 
 func serveGraphQLAPI(wrk *taskQueueWorker) {
