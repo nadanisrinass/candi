@@ -6,10 +6,10 @@ import (
 	"time"
 
 	"github.com/Shopify/sarama"
-	"pkg.agungdp.dev/candi/candihelper"
-	"pkg.agungdp.dev/candi/candishared"
-	"pkg.agungdp.dev/candi/logger"
-	"pkg.agungdp.dev/candi/tracer"
+	"github.com/golangid/candi/candihelper"
+	"github.com/golangid/candi/candishared"
+	"github.com/golangid/candi/logger"
+	"github.com/golangid/candi/tracer"
 )
 
 // KafkaPublisher kafka
